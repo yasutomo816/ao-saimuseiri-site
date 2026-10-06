@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yasutomo816.github.io/ao-saimuseiri-site/sitemap.xml
