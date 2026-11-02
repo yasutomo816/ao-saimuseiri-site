@@ -92,7 +92,7 @@ ul{margin:0;padding:0;list-style:none}
 .drawer .foot small{display:block;text-align:center;font-size:14px;color:var(--ink-2);letter-spacing:.04em}
 
 /* hero */
-.hero{position:relative;margin-top:84px;height:min(calc(92vh - 84px),820px);min-height:600px;overflow:hidden;background:#0F2540}
+.hero{position:relative;margin-top:84px;height:min(calc(92vh - 84px),820px);min-height:740px;overflow:hidden;background:#0F2540}
 .slides{position:absolute;inset:0}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.8s ease}
 .slide.on{opacity:1}
@@ -109,6 +109,7 @@ ul{margin:0;padding:0;list-style:none}
 .copy h1 span,.copy .sub span{position:absolute;left:0;top:0;right:0;opacity:0;transition:opacity .4s ease,transform .4s ease;transform:translateY(10px);pointer-events:none}
 .copy h1 span.on,.copy .sub span.on{opacity:1;transform:none;position:relative;transition:opacity 1s ease .35s,transform 1s ease .35s;pointer-events:auto}
 .copy h1 em{font-style:normal;color:#FFE08A}
+.copy>*{flex-shrink:0}
 .copy .sub{position:relative;margin-top:14px;font-size:clamp(16px,1.3vw,20px);line-height:1.9;color:#fff;min-height:3.2em;max-width:34em}
 .badges{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:auto;padding-top:22px}
 .badges span{font-size:15px;font-weight:500;letter-spacing:.06em;padding:6px 14px;border:1px solid rgba(255,255,255,.7);border-radius:999px;background:rgba(8,26,48,.35);text-shadow:none}
